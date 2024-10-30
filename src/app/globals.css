@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li span {
+  display: block;
+  height: 3px;
+  background: #c6f67e;
+  width: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+nav ul li:hover span {
+  width: 100%;
+}
