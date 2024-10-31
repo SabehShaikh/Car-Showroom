@@ -20,7 +20,7 @@ export default function CarCard({ brand, model, image, price }: CarCardProps) {
           height={1000}
         />
       </a>
-      <div className="p-6">
+      <div className="p-5">
         <h3 className="text-gray-500 text-xs tracking-widest  mb-1">{brand}</h3>
         <h2 className="text-gray-900 text-lg font-medium">{model}</h2>
         <p className="mt-1 text-gray-900 font-bold text-xl">{price}</p>

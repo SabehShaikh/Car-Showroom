@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -44,24 +43,28 @@ export default function Footer() {
             <a
               href="https://www.facebook.com/Sabeh420/"
               className="hover:text-[#4A90E2] transition-colors duration-300"
+              target="_blank"
             >
               <FaFacebookF className="w-6 h-6" />
             </a>
             <a
               href="https://twitter.com/shaikh_sabeh"
               className="hover:text-[#A1C8E4] transition-colors duration-300"
+              target="_blank"
             >
               <FaXTwitter className="w-6 h-6" />
             </a>
             <a
               href="https://www.linkedin.com/in/sabeh-shaikh-016623245/"
               className="hover:text-[#A5C6E8] transition-colors duration-300"
+              target="_blank"
             >
               <FaLinkedinIn className="w-6 h-6" />
             </a>
             <a
               href="https://github.com/SabehShaikh"
               className="hover:text-[#C0C0C0] transition-colors duration-300"
+              target="_blank"
             >
               <FaGithub className="w-6 h-6 transition-transform transform hover:translate-y-[-3px]" />
             </a>
